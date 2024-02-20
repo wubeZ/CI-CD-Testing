@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag fizzbuzz:20-02-2024
+      run: docker build . --file Dockerfile --tag fizzbuzz:20-02-2024 --no-cache
